@@ -23,7 +23,7 @@
 
 - ### 5- We will see the weather forecast of the city we are looking for for 3, 4 or 5 days. The reason why it is like this is the weather site where I get this information.
 
-- ### 6- Before searching for a new city, I recommend pressing the `Temizle` button to the right of the `Ara` button. The task of the `Temzile` button is to clear the expressions we encounter.
+- ### 6- Before searching for a new city, I recommend pressing the `Temizle` button to the right of the `Ara` button. The task of the `Temizle` button is to clear the expressions we encounter.
 
 - ### 7- If you forget which city you are viewing as a result of repeated searches, the name of the city you searched is written on the right side of the word `Görüntülenen şehir:` in the lower left pane.
 
