@@ -64,13 +64,39 @@
 
 | Function name | Description                   |
 | ------------- | ------------------------------ |
-| `HowIsWeather()`      | **searches the city and prints the returned informations**       |
-| `Clear()`   | **Clear the output**     |
-| `ShowDialog()`   | **Show report panel**     |
+| `havaNasil()`      | **searches the city and prints the returned informations**       |
+| `sifirla()`   | **Clear the output**     |
+| `showDialog()`   | **Show report panel**     |
 ----
 
 # Website interface diagram
 ![](icons/diagram.PNG)
+----
+
+## Inside the project
+- `icons` folder with icons for next update
+- `README.md` description for users visiting the project
+- `hava_durumu.ui` is desing of interface
+- `hava_durumu.ui` is converted `hava_durumu_tasarı` for use with python.
+- `hava_durumu_console` is main file of project.
+- Inside of `hava_durumu_console` :
+- - ```python
+    def havaNasil(self): 
+        #howIsWeather()
+        '''Searching weather of city then print the result 
+        '''
+    ```
+- - ```python
+    def sifirla(self):
+        #clear()
+        '''Clear the output for new scan
+        '''
+    ```
+- - ```python
+    def showDialog(self):
+        '''The function of the screen that appears when the report button is pressed
+        '''
+    ```
 ----
 
 # **My links**
