@@ -19,7 +19,8 @@ class myApp(QtWidgets.QMainWindow):
         self.url3 = "-hava-durumu"
         self.ui.btn_bildir.clicked.connect(self.showDialog)
         
-    def havaNasil(self):
+    def havaNasil(self): 
+        #howIsWeather()
         sehir = self.ui.txt_sehir.text().lower()
         final = self.url1+sehir+self.url3
         r = requests.get(final)
@@ -42,6 +43,7 @@ class myApp(QtWidgets.QMainWindow):
             sayac += 1
 
     def sifirla(self):
+        #clear()
         lbl_list = [self.ui.lbl_bugun,self.ui.lbl_yarin,self.ui.lbl_3,self.ui.lbl_4,self.ui.lbl_5]
         lcdClst= [self.ui.lcdC_1,self.ui.lcdC_2,self.ui.lcdC_3,self.ui.lcdC_4,self.ui.lcdC_5]
         lcdAzlst = [self.ui.lcdAz_1,self.ui.lcdAz_2,self.ui.lcdAz_3,self.ui.lcdAz_4,self.ui.lcdAz_5]
