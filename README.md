@@ -41,6 +41,7 @@
 - ### **4 : The name of the city you searched**
 - ### **5 : The weather forecast of the city we are looking for for 3, 4 or 5 days**
 - ### **6 : The report button**
+- ### **7 : The date on the upper right corner(New update)**
 
 ## Example views
 > ### Searching Ankara
