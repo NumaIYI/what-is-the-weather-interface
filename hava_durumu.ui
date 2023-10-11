@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1116</width>
-    <height>846</height>
+    <width>1111</width>
+    <height>838</height>
    </rect>
   </property>
   <property name="palette">
@@ -452,6 +452,9 @@
     </property>
     <property name="text">
      <string>Ara</string>
+    </property>
+    <property name="shortcut">
+     <string>Return</string>
     </property>
    </widget>
    <widget class="QWidget" name="layoutWidget">
@@ -1487,16 +1490,24 @@
      <string>Gösterilen Şehir: </string>
     </property>
    </widget>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>1116</width>
-     <height>26</height>
-    </rect>
-   </property>
+   <widget class="QLabel" name="txt_lbl_date">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>20</y>
+      <width>291</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Tarih:</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
