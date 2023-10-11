@@ -14,7 +14,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(1116, 846)
+        MainWindow.resize(1111, 838)
         palette = QtGui.QPalette()
         brush = QtGui.QBrush(QtGui.QColor(255, 255, 255))
         brush.setStyle(QtCore.Qt.SolidPattern)
@@ -604,11 +604,13 @@ class Ui_MainWindow(object):
         font.setPointSize(8)
         self.txt_lbl_gosterilensehir.setFont(font)
         self.txt_lbl_gosterilensehir.setObjectName("txt_lbl_gosterilensehir")
+        self.txt_lbl_date = QtWidgets.QLabel(self.centralwidget)
+        self.txt_lbl_date.setGeometry(QtCore.QRect(810, 20, 291, 51))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        self.txt_lbl_date.setFont(font)
+        self.txt_lbl_date.setObjectName("txt_lbl_date")
         MainWindow.setCentralWidget(self.centralwidget)
-        self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 1116, 26))
-        self.menubar.setObjectName("menubar")
-        MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
@@ -620,6 +622,7 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Hava Durumu"))
         self.btn_ok.setText(_translate("MainWindow", "Ara"))
+        self.btn_ok.setShortcut(_translate("MainWindow", "Return"))
         self.lbl_sehir.setText(_translate("MainWindow", "Şehir giriniz : "))
         self.label_12.setText(_translate("MainWindow", "°C"))
         self.label_21.setText(_translate("MainWindow", "°C"))
@@ -646,6 +649,7 @@ class Ui_MainWindow(object):
         self.btn_bildir.setText(_translate("MainWindow", "bildir"))
         self.btn_clear.setText(_translate("MainWindow", "Temizle"))
         self.txt_lbl_gosterilensehir.setText(_translate("MainWindow", "Gösterilen Şehir: "))
+        self.txt_lbl_date.setText(_translate("MainWindow", "Tarih:"))
 
 
 if __name__ == "__main__":
